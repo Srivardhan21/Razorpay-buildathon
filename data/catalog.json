@@ -1,0 +1,14 @@
+[
+  { "sku": "SHOE-001", "name": "Runner Pro sneakers", "category": "footwear", "price_inr": 2499, "stock": 8, "variants": ["UK7", "UK8", "UK9", "UK10"], "active": true },
+  { "sku": "SHOE-002", "name": "Canvas casual sneakers", "category": "footwear", "price_inr": 1299, "stock": 15, "variants": ["UK6", "UK7", "UK8", "UK9"], "active": true },
+  { "sku": "SHOE-003", "name": "Trail running shoes", "category": "footwear", "price_inr": 3499, "stock": 0, "variants": ["UK8", "UK9", "UK10"], "active": true },
+  { "sku": "SHOE-004", "name": "Formal leather loafers", "category": "footwear", "price_inr": 2899, "stock": 5, "variants": ["UK7", "UK8", "UK9"], "active": true },
+  { "sku": "SHOE-005", "name": "Slide sandals", "category": "footwear", "price_inr": 699, "stock": 20, "variants": ["UK6", "UK7", "UK8", "UK9", "UK10"], "active": true },
+  { "sku": "SHOE-006", "name": "High-top basketball shoes", "category": "footwear", "price_inr": 3999, "stock": 6, "variants": ["UK8", "UK9", "UK10"], "active": false },
+  { "sku": "APP-001", "name": "Cotton crew-neck t-shirt", "category": "apparel", "price_inr": 499, "stock": 30, "variants": ["S", "M", "L", "XL"], "active": true },
+  { "sku": "APP-002", "name": "Slim-fit denim jeans", "category": "apparel", "price_inr": 1799, "stock": 12, "variants": ["30", "32", "34", "36"], "active": true },
+  { "sku": "APP-003", "name": "Zip-up hoodie", "category": "apparel", "price_inr": 1599, "stock": 10, "variants": ["S", "M", "L", "XL"], "active": true },
+  { "sku": "APP-004", "name": "Track pants", "category": "apparel", "price_inr": 999, "stock": 18, "variants": ["S", "M", "L", "XL"], "active": true },
+  { "sku": "APP-005", "name": "Polo t-shirt", "category": "apparel", "price_inr": 799, "stock": 0, "variants": ["S", "M", "L"], "active": true },
+  { "sku": "APP-006", "name": "Windbreaker jacket", "category": "apparel", "price_inr": 2299, "stock": 7, "variants": ["M", "L", "XL"], "active": true }
+]

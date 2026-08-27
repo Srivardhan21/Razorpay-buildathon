@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Product Catalog Schema",
+  "description": "Schema for a single product entry. The seller agent reads catalog.json (a list of these) to answer buyer queries and validate proposed purchases.",
+  "type": "object",
+  "required": ["sku", "name", "category", "price_inr", "stock", "variants", "active"],
+  "properties": {
+    "sku": {
+      "type": "string",
+      "description": "Unique product identifier, e.g. 'SHOE-001'. This is the ID the validator checks against, never the product name."
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable product name shown to the buyer."
+    },
+    "category": {
+      "type": "string",
+      "enum": ["footwear", "apparel"],
+      "description": "Broad category, used for buyer queries like 'show me shoes'."
+    },
+    "price_inr": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Price in INR. This is the ground truth the validator checks the agreed price against."
+    },
+    "stock": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Units available. 0 means out of stock; seller agent must reject orders for this SKU."
+    },
+    "variants": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Available options, e.g. sizes or colors. Empty array if not applicable."
+    },
+    "active": {
+      "type": "boolean",
+      "description": "If false, product is delisted and must never be sold even if stock > 0. Lets you simulate a delisted-item edge case."
+    }
+  }
+}

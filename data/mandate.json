@@ -1,0 +1,10 @@
+{
+  "mandate_id": "MANDATE-0001",
+  "issued_to": "buyer-session-demo",
+  "max_amount_inr": 3000,
+  "used_amount_inr": 0,
+  "scope": "any_active_catalog_sku",
+  "issued_at": "2026-08-26T09:00:00Z",
+  "expires_at": "2026-08-27T09:00:00Z",
+  "status": "active"
+}

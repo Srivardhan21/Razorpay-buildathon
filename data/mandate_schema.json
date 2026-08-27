@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Mandate Schema",
+  "description": "A mandate is the permission slip the buyer agent must hold before any payment action is allowed. The validator rejects any proposed purchase that doesn't fit inside an active mandate.",
+  "type": "object",
+  "required": ["mandate_id", "issued_to", "max_amount_inr", "used_amount_inr", "scope", "issued_at", "expires_at", "status"],
+  "properties": {
+    "mandate_id": {
+      "type": "string",
+      "description": "Unique ID for this permission grant, e.g. 'MANDATE-0001'."
+    },
+    "issued_to": {
+      "type": "string",
+      "description": "Identifier of the buyer agent / session this mandate was granted to."
+    },
+    "max_amount_inr": {
+      "type": "number",
+      "description": "Total spending cap across ALL purchases under this mandate. Locked spec value: 3000."
+    },
+    "used_amount_inr": {
+      "type": "number",
+      "description": "Running total already spent under this mandate. The validator checks (used_amount_inr + proposed_price) <= max_amount_inr before approving."
+    },
+    "scope": {
+      "type": "string",
+      "enum": ["any_active_catalog_sku"],
+      "description": "What the mandate allows spending on. Locked spec: restricted to catalog SKUs only, i.e. any SKU present and active in catalog.json. No off-catalog or delisted items, ever."
+    },
+    "issued_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp when the mandate was created."
+    },
+    "expires_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp after which the mandate is invalid. Locked spec: issued_at + 24 hours."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "expired", "exhausted", "revoked"],
+      "description": "active = usable. expired = past expires_at. exhausted = used_amount_inr has reached max_amount_inr. revoked = manually cancelled. Validator only approves purchases when status is 'active' AND expires_at is in the future."
+    }
+  }
+}
