@@ -89,6 +89,17 @@ def validate_purchase(
     quantity = proposal.get("quantity", 1)
     proposed_price = proposal.get("proposed_price_inr")
 
+    # --- 0. Quantity must be a sane positive integer ------------------------
+    # Guards against malformed or adversarial input (0, negative, non-integer)
+    # that could otherwise slip through and produce a nonsensical total price.
+    if not isinstance(quantity, int) or quantity < 1:
+        return ValidationResult(
+            approved=False,
+            reason=f"Invalid quantity '{quantity}': must be a positive integer.",
+            error_code="INVALID_QUANTITY",
+            details={"sku": sku, "quantity": quantity},
+        )
+
     # --- 1. SKU must exist -------------------------------------------------
     product = _find_product(catalog, sku)
     if product is None:

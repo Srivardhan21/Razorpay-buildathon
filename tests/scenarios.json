@@ -1,0 +1,1261 @@
+[
+  {
+    "id": "S001",
+    "description": "Valid purchase: 1x Runner Pro sneakers",
+    "category": "valid_purchase",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-001",
+      "quantity": 1,
+      "proposed_price_inr": 2499
+    },
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S002",
+    "description": "Valid purchase: 1x Canvas casual sneakers",
+    "category": "valid_purchase",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-002",
+      "quantity": 1,
+      "proposed_price_inr": 1299
+    },
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S003",
+    "description": "Valid purchase: 1x Formal leather loafers",
+    "category": "valid_purchase",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-004",
+      "quantity": 1,
+      "proposed_price_inr": 2899
+    },
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S004",
+    "description": "Valid purchase: 1x Slide sandals",
+    "category": "valid_purchase",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-005",
+      "quantity": 1,
+      "proposed_price_inr": 699
+    },
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S005",
+    "description": "Valid purchase: 1x Cotton crew-neck t-shirt",
+    "category": "valid_purchase",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-001",
+      "quantity": 1,
+      "proposed_price_inr": 499
+    },
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S006",
+    "description": "Valid purchase: 1x Slim-fit denim jeans",
+    "category": "valid_purchase",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-002",
+      "quantity": 1,
+      "proposed_price_inr": 1799
+    },
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S007",
+    "description": "Valid purchase: 1x Zip-up hoodie",
+    "category": "valid_purchase",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-003",
+      "quantity": 1,
+      "proposed_price_inr": 1599
+    },
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S008",
+    "description": "Valid purchase: 1x Track pants",
+    "category": "valid_purchase",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-004",
+      "quantity": 1,
+      "proposed_price_inr": 999
+    },
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S009",
+    "description": "Valid purchase: 1x Windbreaker jacket",
+    "category": "valid_purchase",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-006",
+      "quantity": 1,
+      "proposed_price_inr": 2299
+    },
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S010",
+    "description": "Valid multi-quantity purchase: 4x Slide sandals",
+    "category": "valid_purchase",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-005",
+      "quantity": 4,
+      "proposed_price_inr": 699
+    },
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S011",
+    "description": "Valid multi-quantity purchase: 6x Cotton crew-neck t-shirt",
+    "category": "valid_purchase",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-001",
+      "quantity": 6,
+      "proposed_price_inr": 499
+    },
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S012",
+    "description": "Valid multi-quantity purchase: 3x Track pants",
+    "category": "valid_purchase",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-004",
+      "quantity": 3,
+      "proposed_price_inr": 999
+    },
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S013",
+    "description": "Unknown SKU: SHOE-999",
+    "category": "unknown_sku",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-999",
+      "quantity": 1,
+      "proposed_price_inr": 999
+    },
+    "expected_approved": false,
+    "expected_error_code": "SKU_NOT_FOUND"
+  },
+  {
+    "id": "S014",
+    "description": "Unknown SKU: APP-999",
+    "category": "unknown_sku",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-999",
+      "quantity": 1,
+      "proposed_price_inr": 999
+    },
+    "expected_approved": false,
+    "expected_error_code": "SKU_NOT_FOUND"
+  },
+  {
+    "id": "S015",
+    "description": "Unknown SKU: SKU-0000",
+    "category": "unknown_sku",
+    "type": "single",
+    "proposal": {
+      "sku": "SKU-0000",
+      "quantity": 1,
+      "proposed_price_inr": 999
+    },
+    "expected_approved": false,
+    "expected_error_code": "SKU_NOT_FOUND"
+  },
+  {
+    "id": "S016",
+    "description": "Unknown SKU: SHOE-01",
+    "category": "unknown_sku",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-01",
+      "quantity": 1,
+      "proposed_price_inr": 999
+    },
+    "expected_approved": false,
+    "expected_error_code": "SKU_NOT_FOUND"
+  },
+  {
+    "id": "S017",
+    "description": "Unknown SKU: shoe-001",
+    "category": "unknown_sku",
+    "type": "single",
+    "proposal": {
+      "sku": "shoe-001",
+      "quantity": 1,
+      "proposed_price_inr": 999
+    },
+    "expected_approved": false,
+    "expected_error_code": "SKU_NOT_FOUND"
+  },
+  {
+    "id": "S018",
+    "description": "Unknown SKU: APP-1",
+    "category": "unknown_sku",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-1",
+      "quantity": 1,
+      "proposed_price_inr": 999
+    },
+    "expected_approved": false,
+    "expected_error_code": "SKU_NOT_FOUND"
+  },
+  {
+    "id": "S019",
+    "description": "Unknown SKU: XYZ-001",
+    "category": "unknown_sku",
+    "type": "single",
+    "proposal": {
+      "sku": "XYZ-001",
+      "quantity": 1,
+      "proposed_price_inr": 999
+    },
+    "expected_approved": false,
+    "expected_error_code": "SKU_NOT_FOUND"
+  },
+  {
+    "id": "S020",
+    "description": "Delisted product: 1x High-top basketball shoes",
+    "category": "delisted_product",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-006",
+      "quantity": 1,
+      "proposed_price_inr": 3999
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRODUCT_INACTIVE"
+  },
+  {
+    "id": "S021",
+    "description": "Delisted product: 2x High-top basketball shoes",
+    "category": "delisted_product",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-006",
+      "quantity": 2,
+      "proposed_price_inr": 3999
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRODUCT_INACTIVE"
+  },
+  {
+    "id": "S022",
+    "description": "Out-of-stock product: 1x Trail running shoes",
+    "category": "out_of_stock",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-003",
+      "quantity": 1,
+      "proposed_price_inr": 3499
+    },
+    "expected_approved": false,
+    "expected_error_code": "INSUFFICIENT_STOCK"
+  },
+  {
+    "id": "S023",
+    "description": "Out-of-stock product: 5x Trail running shoes",
+    "category": "out_of_stock",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-003",
+      "quantity": 5,
+      "proposed_price_inr": 3499
+    },
+    "expected_approved": false,
+    "expected_error_code": "INSUFFICIENT_STOCK"
+  },
+  {
+    "id": "S024",
+    "description": "Out-of-stock product: 1x Polo t-shirt",
+    "category": "out_of_stock",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-005",
+      "quantity": 1,
+      "proposed_price_inr": 799
+    },
+    "expected_approved": false,
+    "expected_error_code": "INSUFFICIENT_STOCK"
+  },
+  {
+    "id": "S025",
+    "description": "Out-of-stock product: 5x Polo t-shirt",
+    "category": "out_of_stock",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-005",
+      "quantity": 5,
+      "proposed_price_inr": 799
+    },
+    "expected_approved": false,
+    "expected_error_code": "INSUFFICIENT_STOCK"
+  },
+  {
+    "id": "S026",
+    "description": "Request exceeds stock: 9x Runner Pro sneakers (only 8 available)",
+    "category": "insufficient_stock",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-001",
+      "quantity": 9,
+      "proposed_price_inr": 2499
+    },
+    "expected_approved": false,
+    "expected_error_code": "INSUFFICIENT_STOCK"
+  },
+  {
+    "id": "S027",
+    "description": "Request exceeds stock: 16x Canvas casual sneakers (only 15 available)",
+    "category": "insufficient_stock",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-002",
+      "quantity": 16,
+      "proposed_price_inr": 1299
+    },
+    "expected_approved": false,
+    "expected_error_code": "INSUFFICIENT_STOCK"
+  },
+  {
+    "id": "S028",
+    "description": "Request exceeds stock: 8x Formal leather loafers (only 5 available)",
+    "category": "insufficient_stock",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-004",
+      "quantity": 8,
+      "proposed_price_inr": 2899
+    },
+    "expected_approved": false,
+    "expected_error_code": "INSUFFICIENT_STOCK"
+  },
+  {
+    "id": "S029",
+    "description": "Request exceeds stock: 22x Slide sandals (only 20 available)",
+    "category": "insufficient_stock",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-005",
+      "quantity": 22,
+      "proposed_price_inr": 699
+    },
+    "expected_approved": false,
+    "expected_error_code": "INSUFFICIENT_STOCK"
+  },
+  {
+    "id": "S030",
+    "description": "Request exceeds stock: 32x Cotton crew-neck t-shirt (only 30 available)",
+    "category": "insufficient_stock",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-001",
+      "quantity": 32,
+      "proposed_price_inr": 499
+    },
+    "expected_approved": false,
+    "expected_error_code": "INSUFFICIENT_STOCK"
+  },
+  {
+    "id": "S031",
+    "description": "Request exceeds stock: 14x Slim-fit denim jeans (only 12 available)",
+    "category": "insufficient_stock",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-002",
+      "quantity": 14,
+      "proposed_price_inr": 1799
+    },
+    "expected_approved": false,
+    "expected_error_code": "INSUFFICIENT_STOCK"
+  },
+  {
+    "id": "S032",
+    "description": "Request exceeds stock: 11x Zip-up hoodie (only 10 available)",
+    "category": "insufficient_stock",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-003",
+      "quantity": 11,
+      "proposed_price_inr": 1599
+    },
+    "expected_approved": false,
+    "expected_error_code": "INSUFFICIENT_STOCK"
+  },
+  {
+    "id": "S033",
+    "description": "Request exceeds stock: 23x Track pants (only 18 available)",
+    "category": "insufficient_stock",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-004",
+      "quantity": 23,
+      "proposed_price_inr": 999
+    },
+    "expected_approved": false,
+    "expected_error_code": "INSUFFICIENT_STOCK"
+  },
+  {
+    "id": "S034",
+    "description": "Request exceeds stock: 8x Windbreaker jacket (only 7 available)",
+    "category": "insufficient_stock",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-006",
+      "quantity": 8,
+      "proposed_price_inr": 2299
+    },
+    "expected_approved": false,
+    "expected_error_code": "INSUFFICIENT_STOCK"
+  },
+  {
+    "id": "S035",
+    "description": "Price mismatch (underquoted): Runner Pro sneakers proposed at Rs.2399 vs real Rs.2499",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-001",
+      "quantity": 1,
+      "proposed_price_inr": 2399
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S036",
+    "description": "Price mismatch (overquoted): Runner Pro sneakers proposed at Rs.2749 vs real Rs.2499",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-001",
+      "quantity": 1,
+      "proposed_price_inr": 2749
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S037",
+    "description": "Price mismatch (underquoted): Canvas casual sneakers proposed at Rs.1199 vs real Rs.1299",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-002",
+      "quantity": 1,
+      "proposed_price_inr": 1199
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S038",
+    "description": "Price mismatch (overquoted): Canvas casual sneakers proposed at Rs.1549 vs real Rs.1299",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-002",
+      "quantity": 1,
+      "proposed_price_inr": 1549
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S039",
+    "description": "Price mismatch (underquoted): Formal leather loafers proposed at Rs.2799 vs real Rs.2899",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-004",
+      "quantity": 1,
+      "proposed_price_inr": 2799
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S040",
+    "description": "Price mismatch (overquoted): Formal leather loafers proposed at Rs.3149 vs real Rs.2899",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-004",
+      "quantity": 1,
+      "proposed_price_inr": 3149
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S041",
+    "description": "Price mismatch (underquoted): Slide sandals proposed at Rs.599 vs real Rs.699",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-005",
+      "quantity": 1,
+      "proposed_price_inr": 599
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S042",
+    "description": "Price mismatch (overquoted): Slide sandals proposed at Rs.949 vs real Rs.699",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-005",
+      "quantity": 1,
+      "proposed_price_inr": 949
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S043",
+    "description": "Price mismatch (underquoted): Cotton crew-neck t-shirt proposed at Rs.399 vs real Rs.499",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-001",
+      "quantity": 1,
+      "proposed_price_inr": 399
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S044",
+    "description": "Price mismatch (overquoted): Cotton crew-neck t-shirt proposed at Rs.749 vs real Rs.499",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-001",
+      "quantity": 1,
+      "proposed_price_inr": 749
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S045",
+    "description": "Price mismatch (underquoted): Slim-fit denim jeans proposed at Rs.1699 vs real Rs.1799",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-002",
+      "quantity": 1,
+      "proposed_price_inr": 1699
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S046",
+    "description": "Price mismatch (overquoted): Slim-fit denim jeans proposed at Rs.2049 vs real Rs.1799",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-002",
+      "quantity": 1,
+      "proposed_price_inr": 2049
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S047",
+    "description": "Price mismatch (underquoted): Zip-up hoodie proposed at Rs.1499 vs real Rs.1599",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-003",
+      "quantity": 1,
+      "proposed_price_inr": 1499
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S048",
+    "description": "Price mismatch (overquoted): Zip-up hoodie proposed at Rs.1849 vs real Rs.1599",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-003",
+      "quantity": 1,
+      "proposed_price_inr": 1849
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S049",
+    "description": "Price mismatch (underquoted): Track pants proposed at Rs.899 vs real Rs.999",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-004",
+      "quantity": 1,
+      "proposed_price_inr": 899
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S050",
+    "description": "Price mismatch (overquoted): Track pants proposed at Rs.1249 vs real Rs.999",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-004",
+      "quantity": 1,
+      "proposed_price_inr": 1249
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S051",
+    "description": "Price mismatch (underquoted): Windbreaker jacket proposed at Rs.2199 vs real Rs.2299",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-006",
+      "quantity": 1,
+      "proposed_price_inr": 2199
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S052",
+    "description": "Price mismatch (overquoted): Windbreaker jacket proposed at Rs.2549 vs real Rs.2299",
+    "category": "price_mismatch",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-006",
+      "quantity": 1,
+      "proposed_price_inr": 2549
+    },
+    "expected_approved": false,
+    "expected_error_code": "PRICE_MISMATCH"
+  },
+  {
+    "id": "S053",
+    "description": "Invalid quantity (0) for Runner Pro sneakers",
+    "category": "invalid_quantity",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-001",
+      "quantity": 0,
+      "proposed_price_inr": 2499
+    },
+    "expected_approved": false,
+    "expected_error_code": "INVALID_QUANTITY"
+  },
+  {
+    "id": "S054",
+    "description": "Invalid quantity (-1) for Canvas casual sneakers",
+    "category": "invalid_quantity",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-002",
+      "quantity": -1,
+      "proposed_price_inr": 1299
+    },
+    "expected_approved": false,
+    "expected_error_code": "INVALID_QUANTITY"
+  },
+  {
+    "id": "S055",
+    "description": "Invalid quantity (-5) for Formal leather loafers",
+    "category": "invalid_quantity",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-004",
+      "quantity": -5,
+      "proposed_price_inr": 2899
+    },
+    "expected_approved": false,
+    "expected_error_code": "INVALID_QUANTITY"
+  },
+  {
+    "id": "S056",
+    "description": "Expired mandate attempting: Zip-up hoodie",
+    "category": "expired_mandate",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-003",
+      "quantity": 1,
+      "proposed_price_inr": 1599
+    },
+    "now_offset_hours": 30,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_EXPIRED"
+  },
+  {
+    "id": "S057",
+    "description": "Expired mandate attempting: Runner Pro sneakers",
+    "category": "expired_mandate",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-001",
+      "quantity": 1,
+      "proposed_price_inr": 2499
+    },
+    "now_offset_hours": 30,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_EXPIRED"
+  },
+  {
+    "id": "S058",
+    "description": "Expired mandate attempting: Track pants",
+    "category": "expired_mandate",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-004",
+      "quantity": 1,
+      "proposed_price_inr": 999
+    },
+    "now_offset_hours": 30,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_EXPIRED"
+  },
+  {
+    "id": "S059",
+    "description": "Expired mandate attempting: Windbreaker jacket",
+    "category": "expired_mandate",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-006",
+      "quantity": 1,
+      "proposed_price_inr": 2299
+    },
+    "now_offset_hours": 30,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_EXPIRED"
+  },
+  {
+    "id": "S060",
+    "description": "Expired mandate attempting: Canvas casual sneakers",
+    "category": "expired_mandate",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-002",
+      "quantity": 1,
+      "proposed_price_inr": 1299
+    },
+    "now_offset_hours": 30,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_EXPIRED"
+  },
+  {
+    "id": "S061",
+    "description": "Mandate status 'revoked' attempting: Slide sandals",
+    "category": "mandate_not_active",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-005",
+      "quantity": 1,
+      "proposed_price_inr": 699
+    },
+    "mandate_status_override": "revoked",
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_NOT_ACTIVE"
+  },
+  {
+    "id": "S062",
+    "description": "Mandate status 'revoked' attempting: Runner Pro sneakers",
+    "category": "mandate_not_active",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-001",
+      "quantity": 1,
+      "proposed_price_inr": 2499
+    },
+    "mandate_status_override": "revoked",
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_NOT_ACTIVE"
+  },
+  {
+    "id": "S063",
+    "description": "Mandate status 'revoked' attempting: Cotton crew-neck t-shirt",
+    "category": "mandate_not_active",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-001",
+      "quantity": 1,
+      "proposed_price_inr": 499
+    },
+    "mandate_status_override": "revoked",
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_NOT_ACTIVE"
+  },
+  {
+    "id": "S064",
+    "description": "Mandate status 'exhausted' attempting: Slide sandals",
+    "category": "mandate_not_active",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-005",
+      "quantity": 1,
+      "proposed_price_inr": 699
+    },
+    "mandate_status_override": "exhausted",
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_NOT_ACTIVE"
+  },
+  {
+    "id": "S065",
+    "description": "Mandate status 'exhausted' attempting: Zip-up hoodie",
+    "category": "mandate_not_active",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-003",
+      "quantity": 1,
+      "proposed_price_inr": 1599
+    },
+    "mandate_status_override": "exhausted",
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_NOT_ACTIVE"
+  },
+  {
+    "id": "S066",
+    "description": "Mandate status 'exhausted' attempting: Canvas casual sneakers",
+    "category": "mandate_not_active",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-002",
+      "quantity": 1,
+      "proposed_price_inr": 1299
+    },
+    "mandate_status_override": "exhausted",
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_NOT_ACTIVE"
+  },
+  {
+    "id": "S067",
+    "description": "Cap exceeded: Track pants with Rs.2176 already used on the mandate",
+    "category": "cap_exceeded",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-004",
+      "quantity": 1,
+      "proposed_price_inr": 999
+    },
+    "preused_amount_inr": 2176,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_CAP_EXCEEDED"
+  },
+  {
+    "id": "S068",
+    "description": "Cap exceeded: Cotton crew-neck t-shirt with Rs.2644 already used on the mandate",
+    "category": "cap_exceeded",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-001",
+      "quantity": 1,
+      "proposed_price_inr": 499
+    },
+    "preused_amount_inr": 2644,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_CAP_EXCEEDED"
+  },
+  {
+    "id": "S069",
+    "description": "Cap exceeded: Zip-up hoodie with Rs.1481 already used on the mandate",
+    "category": "cap_exceeded",
+    "type": "single",
+    "proposal": {
+      "sku": "APP-003",
+      "quantity": 1,
+      "proposed_price_inr": 1599
+    },
+    "preused_amount_inr": 1481,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_CAP_EXCEEDED"
+  },
+  {
+    "id": "S070",
+    "description": "Cap exceeded: Runner Pro sneakers with Rs.612 already used on the mandate",
+    "category": "cap_exceeded",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-001",
+      "quantity": 1,
+      "proposed_price_inr": 2499
+    },
+    "preused_amount_inr": 612,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_CAP_EXCEEDED"
+  },
+  {
+    "id": "S071",
+    "description": "Cap exceeded: Canvas casual sneakers with Rs.1874 already used on the mandate",
+    "category": "cap_exceeded",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-002",
+      "quantity": 1,
+      "proposed_price_inr": 1299
+    },
+    "preused_amount_inr": 1874,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_CAP_EXCEEDED"
+  },
+  {
+    "id": "S072",
+    "description": "Cap exceeded: Slide sandals with Rs.2354 already used on the mandate",
+    "category": "cap_exceeded",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-005",
+      "quantity": 1,
+      "proposed_price_inr": 699
+    },
+    "preused_amount_inr": 2354,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_CAP_EXCEEDED"
+  },
+  {
+    "id": "S073",
+    "description": "Exactly at cap boundary: Runner Pro sneakers with Rs.501 already used",
+    "category": "boundary_at_cap",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-001",
+      "quantity": 1,
+      "proposed_price_inr": 2499
+    },
+    "preused_amount_inr": 501,
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S074",
+    "description": "One rupee over cap boundary: Runner Pro sneakers with Rs.502 already used",
+    "category": "boundary_over_cap",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-001",
+      "quantity": 1,
+      "proposed_price_inr": 2499
+    },
+    "preused_amount_inr": 502,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_CAP_EXCEEDED"
+  },
+  {
+    "id": "S075",
+    "description": "Exactly at cap boundary: Canvas casual sneakers with Rs.1701 already used",
+    "category": "boundary_at_cap",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-002",
+      "quantity": 1,
+      "proposed_price_inr": 1299
+    },
+    "preused_amount_inr": 1701,
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S076",
+    "description": "One rupee over cap boundary: Canvas casual sneakers with Rs.1702 already used",
+    "category": "boundary_over_cap",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-002",
+      "quantity": 1,
+      "proposed_price_inr": 1299
+    },
+    "preused_amount_inr": 1702,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_CAP_EXCEEDED"
+  },
+  {
+    "id": "S077",
+    "description": "Exactly at cap boundary: Formal leather loafers with Rs.101 already used",
+    "category": "boundary_at_cap",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-004",
+      "quantity": 1,
+      "proposed_price_inr": 2899
+    },
+    "preused_amount_inr": 101,
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S078",
+    "description": "One rupee over cap boundary: Formal leather loafers with Rs.102 already used",
+    "category": "boundary_over_cap",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-004",
+      "quantity": 1,
+      "proposed_price_inr": 2899
+    },
+    "preused_amount_inr": 102,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_CAP_EXCEEDED"
+  },
+  {
+    "id": "S079",
+    "description": "Exactly at cap boundary: Slide sandals with Rs.2301 already used",
+    "category": "boundary_at_cap",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-005",
+      "quantity": 1,
+      "proposed_price_inr": 699
+    },
+    "preused_amount_inr": 2301,
+    "expected_approved": true,
+    "expected_error_code": null
+  },
+  {
+    "id": "S080",
+    "description": "One rupee over cap boundary: Slide sandals with Rs.2302 already used",
+    "category": "boundary_over_cap",
+    "type": "single",
+    "proposal": {
+      "sku": "SHOE-005",
+      "quantity": 1,
+      "proposed_price_inr": 699
+    },
+    "preused_amount_inr": 2302,
+    "expected_approved": false,
+    "expected_error_code": "MANDATE_CAP_EXCEEDED"
+  },
+  {
+    "id": "S081",
+    "description": "Split-purchase sequence attempting to dodge the cap (SHOE-002 -> APP-004 -> APP-003)",
+    "category": "adversarial_sequence",
+    "type": "sequence",
+    "steps": [
+      {
+        "proposal": {
+          "sku": "SHOE-002",
+          "quantity": 1,
+          "proposed_price_inr": 1299
+        },
+        "expected_approved": true,
+        "expected_error_code": null
+      },
+      {
+        "proposal": {
+          "sku": "APP-004",
+          "quantity": 1,
+          "proposed_price_inr": 999
+        },
+        "expected_approved": true,
+        "expected_error_code": null
+      },
+      {
+        "proposal": {
+          "sku": "APP-003",
+          "quantity": 1,
+          "proposed_price_inr": 1599
+        },
+        "expected_approved": false,
+        "expected_error_code": "MANDATE_CAP_EXCEEDED"
+      }
+    ]
+  },
+  {
+    "id": "S082",
+    "description": "Split-purchase sequence attempting to dodge the cap (APP-001 -> APP-001 -> APP-001 -> APP-001 -> APP-001 -> APP-001 -> APP-001)",
+    "category": "adversarial_sequence",
+    "type": "sequence",
+    "steps": [
+      {
+        "proposal": {
+          "sku": "APP-001",
+          "quantity": 1,
+          "proposed_price_inr": 499
+        },
+        "expected_approved": true,
+        "expected_error_code": null
+      },
+      {
+        "proposal": {
+          "sku": "APP-001",
+          "quantity": 1,
+          "proposed_price_inr": 499
+        },
+        "expected_approved": true,
+        "expected_error_code": null
+      },
+      {
+        "proposal": {
+          "sku": "APP-001",
+          "quantity": 1,
+          "proposed_price_inr": 499
+        },
+        "expected_approved": true,
+        "expected_error_code": null
+      },
+      {
+        "proposal": {
+          "sku": "APP-001",
+          "quantity": 1,
+          "proposed_price_inr": 499
+        },
+        "expected_approved": true,
+        "expected_error_code": null
+      },
+      {
+        "proposal": {
+          "sku": "APP-001",
+          "quantity": 1,
+          "proposed_price_inr": 499
+        },
+        "expected_approved": true,
+        "expected_error_code": null
+      },
+      {
+        "proposal": {
+          "sku": "APP-001",
+          "quantity": 1,
+          "proposed_price_inr": 499
+        },
+        "expected_approved": true,
+        "expected_error_code": null
+      },
+      {
+        "proposal": {
+          "sku": "APP-001",
+          "quantity": 1,
+          "proposed_price_inr": 499
+        },
+        "expected_approved": false,
+        "expected_error_code": "MANDATE_CAP_EXCEEDED"
+      }
+    ]
+  },
+  {
+    "id": "S083",
+    "description": "Split-purchase sequence attempting to dodge the cap (SHOE-005 -> SHOE-005 -> SHOE-005 -> SHOE-005 -> SHOE-005)",
+    "category": "adversarial_sequence",
+    "type": "sequence",
+    "steps": [
+      {
+        "proposal": {
+          "sku": "SHOE-005",
+          "quantity": 1,
+          "proposed_price_inr": 699
+        },
+        "expected_approved": true,
+        "expected_error_code": null
+      },
+      {
+        "proposal": {
+          "sku": "SHOE-005",
+          "quantity": 1,
+          "proposed_price_inr": 699
+        },
+        "expected_approved": true,
+        "expected_error_code": null
+      },
+      {
+        "proposal": {
+          "sku": "SHOE-005",
+          "quantity": 1,
+          "proposed_price_inr": 699
+        },
+        "expected_approved": true,
+        "expected_error_code": null
+      },
+      {
+        "proposal": {
+          "sku": "SHOE-005",
+          "quantity": 1,
+          "proposed_price_inr": 699
+        },
+        "expected_approved": true,
+        "expected_error_code": null
+      },
+      {
+        "proposal": {
+          "sku": "SHOE-005",
+          "quantity": 1,
+          "proposed_price_inr": 699
+        },
+        "expected_approved": false,
+        "expected_error_code": "MANDATE_CAP_EXCEEDED"
+      }
+    ]
+  },
+  {
+    "id": "S084",
+    "description": "Valid purchase, then price-mismatch attempt, then another valid purchase",
+    "category": "adversarial_sequence",
+    "type": "sequence",
+    "steps": [
+      {
+        "proposal": {
+          "sku": "APP-001",
+          "quantity": 1,
+          "proposed_price_inr": 499
+        },
+        "expected_approved": true,
+        "expected_error_code": null
+      },
+      {
+        "proposal": {
+          "sku": "APP-004",
+          "quantity": 1,
+          "proposed_price_inr": 1
+        },
+        "expected_approved": false,
+        "expected_error_code": "PRICE_MISMATCH"
+      },
+      {
+        "proposal": {
+          "sku": "APP-004",
+          "quantity": 1,
+          "proposed_price_inr": 999
+        },
+        "expected_approved": true,
+        "expected_error_code": null
+      }
+    ]
+  }
+]
