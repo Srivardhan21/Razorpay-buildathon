@@ -1,14 +1,3 @@
-"""
-core/mandate_manager.py
-
-The validator (core/validator.py) only ever CHECKS a mandate — it never
-changes it. This file is the only place mandate state is actually mutated,
-so there's exactly one place to look if you ever need to answer "why did
-the mandate's used_amount_inr change?"
-
-Deliberately tiny and boring, same philosophy as the validator.
-"""
-
 from datetime import datetime, timezone
 
 

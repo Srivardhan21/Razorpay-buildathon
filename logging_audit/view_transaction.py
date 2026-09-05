@@ -1,21 +1,3 @@
-"""
-logging_audit/view_transaction.py
-
-Reads logs/session_transcript.jsonl and pretty-prints the complete,
-ordered history of ONE transaction: every message, every validation
-decision (approved or rejected, with the reason), every order created,
-every payment outcome, every mandate change.
-
-This is the direct answer to "show the audit trail" in the brief — anyone
-should be able to point at a transaction_id and see exactly what happened
-and why, in order, with nothing hidden.
-
-Usage:
-    python logging_audit/view_transaction.py <transaction_id>
-    python logging_audit/view_transaction.py --list          # see all transaction_ids
-    python logging_audit/view_transaction.py --latest        # view the most recent one
-"""
-
 import sys
 import json
 import argparse

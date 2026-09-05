@@ -1,17 +1,3 @@
-"""
-agents/buyer_agent.py
-
-The buyer agent's job: pursue a shopping goal in natural conversation with
-the seller agent. It never emits proposals itself and never touches the
-validator, mandate, or Razorpay directly — it only reacts to what the
-seller says (including rejections and payment outcomes fed back into the
-conversation as system events).
-
-Requires in your .env:
-    GROQ_API_KEY
-    GROQ_MODEL   (defaults to openai/gpt-oss-120b if unset)
-"""
-
 import os
 import json
 from typing import Optional

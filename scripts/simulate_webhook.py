@@ -1,22 +1,3 @@
-"""
-scripts/simulate_webhook.py
-
-Sends a correctly-signed, realistic Razorpay webhook payload to your local
-webhook_server.py, so you can verify the signature-checking and event
-handling logic work correctly WITHOUT depending on a live checkout page
-succeeding (which is currently blocked by account activation on Razorpay's
-side, not by anything in your code).
-
-This exercises the exact same code path (verify_webhook_signature +
-event handling in webhook_server.py) that a real webhook would hit. It does
-NOT create a real payment or order — it's a payload shaped exactly like one,
-signed the same way Razorpay signs its real webhooks.
-
-Usage:
-    python scripts/simulate_webhook.py                  # simulates payment.captured
-    python scripts/simulate_webhook.py --event failed    # simulates payment.failed
-"""
-
 import os
 import sys
 import json

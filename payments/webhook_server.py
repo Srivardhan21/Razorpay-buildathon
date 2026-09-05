@@ -1,27 +1,3 @@
-"""
-payments/webhook_server.py
-
-A small Flask server that listens for Razorpay webhook events (payment
-succeeded, payment failed, etc.) and logs them. Razorpay needs a PUBLIC url
-to reach this, which is what ngrok is for during local development.
-
-Setup on Razorpay's dashboard (Day 5):
-    Settings -> Webhooks -> Add New Webhook
-    URL: <your ngrok https url>/webhook/razorpay
-    Active events: payment.captured, payment.failed
-    Set a Webhook Secret and put the SAME value in your .env as
-    RAZORPAY_WEBHOOK_SECRET
-
-Run this with:
-    python payments/webhook_server.py
-Then in a separate terminal:
-    ngrok http 5000
-Copy the https URL ngrok gives you into Razorpay's webhook config above.
-
-Requires in your .env:
-    RAZORPAY_WEBHOOK_SECRET
-"""
-
 import os
 import json
 from datetime import datetime, timezone

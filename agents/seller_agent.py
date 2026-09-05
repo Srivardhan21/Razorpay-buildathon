@@ -1,20 +1,3 @@
-"""
-agents/seller_agent.py
-
-The seller agent's entire job: understand what the buyer is asking for,
-answer using ONLY real catalog data, and when a specific purchase is being
-agreed on, emit a structured proposal — never free text pretending to be a
-proposal. It never touches the validator, mandate, or Razorpay directly;
-it only ever produces a proposal for something else to check.
-
-Requires in your .env:
-    GROQ_API_KEY
-    GROQ_MODEL   (defaults to llama-3.3-70b-versatile if unset)
-
-Install first:
-    pip install groq python-dotenv
-"""
-
 import os
 import json
 from typing import Optional

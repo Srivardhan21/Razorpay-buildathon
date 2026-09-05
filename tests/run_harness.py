@@ -1,20 +1,3 @@
-"""
-tests/run_harness.py
-
-Runs every scenario in tests/scenarios.json against the real validator and
-reports a measured error rate — the actual number that goes in the README
-and the pitch, not a guessed one.
-
-"Error" is defined precisely as: the validator's actual decision (approved
-or not, and which error_code) does not match the expected decision for that
-scenario. That includes both false approvals (dangerous) and false
-rejections (a valid purchase wrongly blocked) — both count as errors.
-
-Usage:
-    python3 tests/run_harness.py
-    python3 tests/run_harness.py --verbose      # show every individual result
-"""
-
 import json
 import sys
 import argparse

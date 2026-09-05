@@ -1,18 +1,3 @@
-"""
-payments/razorpay_client.py
-
-Thin wrapper around Razorpay's SDK. Nothing clever here on purpose — the
-whole point of Day 5 is proving the boring plumbing works before any agent
-or validator logic touches it.
-
-Requires in your .env:
-    RAZORPAY_KEY_ID
-    RAZORPAY_KEY_SECRET
-
-Install the SDK first:
-    pip install razorpay python-dotenv
-"""
-
 import os
 import razorpay
 from dotenv import load_dotenv

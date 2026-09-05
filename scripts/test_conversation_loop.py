@@ -1,14 +1,3 @@
-"""
-scripts/test_conversation_loop.py
-
-Day 7 sanity check: run one complete buyer<->seller conversation end to end,
-including real Razorpay order creation and a simulated payment outcome.
-
-Run:
-    python scripts/test_conversation_loop.py                 # normal success path
-    python scripts/test_conversation_loop.py --fail-payment  # trigger the graceful-failure demo
-"""
-
 import sys
 import json
 import argparse

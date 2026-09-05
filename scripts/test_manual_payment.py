@@ -1,14 +1,3 @@
-"""
-scripts/test_manual_payment.py
-
-The Day 5 sanity check: create ONE real order + payment link on Razorpay's
-test-mode API, with no agents, no validator, no LLM involved. If this works,
-your Razorpay integration is solid and Day 6+ can build on top of it safely.
-
-Run:
-    python scripts/test_manual_payment.py
-"""
-
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))

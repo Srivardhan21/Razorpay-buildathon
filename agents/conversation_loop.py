@@ -1,24 +1,3 @@
-"""
-agents/conversation_loop.py
-
-The orchestrator. Runs a full buyer <-> seller conversation, and for every
-proposal the seller makes, routes it through the validator before anything
-resembling a payment happens. This file is where the "LLM proposes, code
-disposes" principle actually gets enforced at runtime.
-
-Flow per turn:
-  1. Buyer's message -> seller agent
-  2. Seller replies, optionally with a structured proposal
-  3. If there's a proposal: validate_purchase() checks it against the real
-     catalog + mandate. Approved -> create a real Razorpay order, apply the
-     mandate update, simulate a payment outcome. Rejected -> the reason is
-     fed back into the conversation, not hidden.
-  4. Buyer agent reacts to whatever happened (seller's reply, a rejection,
-     or a payment outcome) and either continues or declares task_complete.
-
-Loop is capped at max_turns so a confused conversation can't run forever.
-"""
-
 import sys
 import json
 import uuid

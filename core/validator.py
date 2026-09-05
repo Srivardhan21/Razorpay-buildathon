@@ -1,17 +1,3 @@
-"""
-core/validator.py
-
-The single gatekeeper between an agent's proposed purchase and any real
-payment action. Every check here is plain, deterministic Python — no LLM
-calls, no "judgment calls". A proposal either satisfies every rule or it
-doesn't. This is the piece the whole project's trust claim rests on, so
-keep it boring on purpose.
-
-A "proposal" is what the buyer/seller agents agree on, expressed as a
-plain dict — never trust an agent's own claim about whether something is
-valid; always re-derive the truth from catalog.json and mandate.json.
-"""
-
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Optional

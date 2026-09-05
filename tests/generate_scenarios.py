@@ -1,20 +1,3 @@
-"""
-tests/generate_scenarios.py
-
-Builds tests/scenarios.json: a large, varied set of test cases run against
-the validator to produce a real, measured error rate.
-
-Two scenario types:
-  - "single":   one proposal, checked against one mandate state.
-  - "sequence": multiple proposals in order against the SAME mandate,
-                with used_amount_inr updated after each approval — this is
-                how we test cumulative spend (an agent trying to "split" a
-                purchase into several smaller ones to sneak past the cap).
-
-Run this whenever data/catalog.json changes, so scenarios stay in sync:
-    python3 tests/generate_scenarios.py
-"""
-
 import json
 import random
 from pathlib import Path

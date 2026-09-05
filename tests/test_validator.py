@@ -1,13 +1,3 @@
-"""
-tests/test_validator.py
-
-Unit tests for core/validator.py, using the real data/catalog.json and
-data/mandate.json so these tests exercise the actual data your demo will run
-against, not synthetic stand-ins.
-
-Run with:  pytest tests/test_validator.py -v
-"""
-
 import json
 import copy
 from datetime import datetime, timedelta, timezone

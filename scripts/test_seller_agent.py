@@ -1,15 +1,3 @@
-"""
-scripts/test_seller_agent.py
-
-Day 6 sanity check: talk to the seller agent with a few hardcoded buyer
-messages (no buyer agent involved yet) and print its structured responses,
-so you can eyeball whether it's behaving sensibly before wiring up the full
-conversation loop.
-
-Run:
-    python scripts/test_seller_agent.py
-"""
-
 import sys
 import json
 from pathlib import Path
