@@ -1,4 +1,4 @@
-# Agentic Commerce Demo — Razorpay AI Buildathon 2026
+# Agentic Commerce — Razorpay AI Buildathon 2026
 
 **Track 01: AI Growth & Agentic Commerce.** A merchant made transactable by an AI buyer, built on Razorpay's test-mode APIs, with every money action explainable, bounded, and gated.
 
